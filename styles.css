@@ -1,1 +1,27 @@
 /*  your css code here. If applicable */
+#loading {
+    display: none;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#error {
+    display: none;
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#output {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#output img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid #ddd;
+}
